@@ -53,7 +53,7 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 	@include border-left-radius($my_border_radius);//bourbon mixin
 }
 /*Кнопка*/
-@mixin my_btn{
+@mixin my-button{
 	padding: 1px 1px 1px 3px;
 	border-radius: 5px;
 	border: none;
