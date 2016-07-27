@@ -1,0 +1,135 @@
+@media only screen and (max-width: 3000px) {
+  /* line 25, sass/main.sass */
+  h1 {
+    font-size: 5em;
+  }
+
+  /* line 27, sass/main.sass */
+  h2 {
+    font-size: 4em;
+  }
+
+  /* line 29, sass/main.sass */
+  h3 {
+    font-size: 3em;
+  }
+
+  /* line 31, sass/main.sass */
+  h4 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 2.237em;
+  }
+
+  /* line 33, sass/main.sass */
+  .tel .tab_content {
+    font-size: 3.8em;
+  }
+
+  /* line 35, sass/main.sass */
+  .tel .tabs {
+    font-size: 2.5em;
+  }
+
+  /* line 37, sass/main.sass */
+  .logo {
+    font-size: 3.8em;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  /* line 25, sass/main.sass */
+  h1 {
+    font-size: 3.5em;
+  }
+
+  /* line 27, sass/main.sass */
+  h2 {
+    font-size: 2.7em;
+  }
+
+  /* line 29, sass/main.sass */
+  h3 {
+    font-size: 2em;
+  }
+
+  /* line 31, sass/main.sass */
+  h4 {
+    font-size: 1.77em;
+  }
+  p {
+    font-size: 1.9em;
+  }
+
+
+  /* line 33, sass/main.sass */
+  .tel .tab_content {
+    font-size: 2.8em;
+  }
+
+  /* line 35, sass/main.sass */
+  .tel .tabs {
+    font-size: 1.7em;
+  }
+
+  /* line 37, sass/main.sass */
+  .logo {
+    font-size: 2.8em;
+  }
+}
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+

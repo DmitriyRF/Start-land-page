@@ -1,0 +1,68 @@
+
+body,
+html {
+	margin:0;
+	padding:0;
+	min-height:100%;
+}
+/*landingMenu*/
+
+/*Важен CSS стили меню*/
+.landingMenu ul {
+	background-color:#000;
+	display:block;
+	/*width:800px;*/
+	border-radius:0 0 10px 10px;
+	text-align:center;
+	position:relative; 
+	padding:0;
+	margin:0 auto;
+	list-style:none;
+	position:relative; 
+}
+/*Важен CSS стили меню*/
+.landingMenu li {
+	display:inline-block;
+	/*display:inline;
+	vertical-align:top;
+	zoom:1;*/
+}
+/*Важен CSS стили меню*/
+.landingMenu a {
+	color:#09F;
+	padding:20px 20px;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:inline-block;
+}
+/*ВАЖЕН для Начально позиционирования меню*/
+.landingMenu {
+	position:absolute; 
+	width:100%;
+	top:0;
+	left:0;
+	z-index:999
+}
+/*ВАЖЕН для скролинга меню*/
+.landingMenu.landingFix {
+	position:fixed;
+	width:100%;
+	top:0;
+	left:0;
+}
+/*ВАЖЕН для выделения ссылки в меню*/
+.landingMenu .cur {
+	color:#fff;
+	background:#09F;
+}
+/*ВАЖЕН для блока к которому скролинг*/
+.landingItem {
+	font:500px/1000px Arial, Helvetica, sans-serif;
+	font-weight:900;
+	color:#000;
+	text-align:center;
+	position:relative;
+	background:#fff;
+	border-radius:20px;
+	margin:0 -10px 20px;
+}

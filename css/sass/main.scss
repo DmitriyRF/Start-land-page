@@ -1,0 +1,196 @@
+@import "bourbon/bourbon";
+/*--------------------------  START MEDIA REQUEST  --------------------------*/
+$modular-scale-ratio: 1.1; //$golden=1.618 //bourbon
+$modular-scale-base: 1.9em; //bourbon
+$max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1200px, screen4: 992px, screen5: 768px, screen6: 480px, screen7: 320px);
+// $max-screen-width: (screen0: 1440px, screen1: 1200px, screen2: 992px, screen3: 768px, screen4: 480px, screen5: 320px)
+
+@for $i from 0 through 7 {
+	@if map_has_key($max-screen-width, screen#{$i}){
+		@media only screen and (max-width :  map_get($max-screen-width, screen#{$i})){
+			h1{
+				font-size: modular-scale(11 - $i); //bourbon function
+			}
+			h2{
+				font-size: modular-scale(8 - $i); //bourbon function
+			}
+			h3{
+				font-size: modular-scale(4 - $i); //bourbon function
+			}
+			h4{
+				font-size: modular-scale(0 - $i); //bourbon function
+			}
+			h5{
+				font-size: modular-scale(-2 - $i); //bourbon function
+			}
+			h6{
+				font-size: modular-scale(-4 - $i); //bourbon function
+			}
+			p{
+				font-size: modular-scale(-4 - $i); //bourbon function
+			}
+			td, th{
+				font-size: modular-scale(0 - $i); //bourbon function
+			}
+		}
+	}
+}
+
+/*--------------------------  END MEDIA REQUEST  --------------------------*/
+/* Переход */
+@mixin  my-transition($transition_time){
+	@include transition-property(all);//bourbon mixin
+	@include transition-duration(0s);//bourbon mixin
+	@include transition-timing-function(ease);//bourbon mixin
+	@include transition-delay($transition_time);//bourbon mixin
+}
+
+/*Скругленные углы*/
+@mixin my-border-radius($my_border_radius){
+	@include border-top-radius($my_border_radius);//bourbon mixin
+	@include border-right-radius($my_border_radius);//bourbon mixin
+	@include border-bottom-radius($my_border_radius);//bourbon mixin
+	@include border-left-radius($my_border_radius);//bourbon mixin
+}
+/*Кнопка*/
+@mixin my_btn{
+	padding: 1px 1px 1px 3px;
+	border-radius: 5px;
+	border: none;
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	/*Градиент*/
+	@include background-image(linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%));//bourbon mixin
+	box-shadow:
+		0 1px rgba(255,255,255,.2) inset,
+		0 3px 5px rgba(0,1,6,.5),
+		0 0 1px 1px rgba(0,1,6,.2);
+	text-shadow: 0 -1px 1px #777;
+ 	
+ 	&:hover:not(:disabled){
+ 		top: -0.1em;
+		left: -0.1em;
+		box-shadow:
+			0 2px rgba(255,255,255,.3) inset,
+			0 4px 6px rgba(0,1,6,.6),
+			0 0 2px 2px rgba(0,1,6,.3);
+
+	}
+
+	&:active:not(:disabled){
+		top: 0.1em;
+		left: 0.1em;
+		-webkit-box-shadow,-moz-box-shadow,box-shadow:
+			0 0 1px rgba(0,0,0,.5) inset,
+			0 2px 3px rgba(0,0,0,.5) inset,
+			0 1px 1px rgba(255,255,255,.1);
+	}
+	&:disabled{}
+	
+}
+
+.inline-block {
+	display: inline-block;
+	vertical-align: top;
+	&-bottom{
+		display: inline-block;
+		vertical-align: bottom;
+	}
+}
+body input:focus:required:invalid,
+body textarea:focus:required:invalid{
+	color: red;
+}
+body input:required:valid,
+body textarea:required:valid{
+	color: green;
+}
+body {
+	min-height: 100%;
+	position: relative;
+}
+input {
+	margin: 0;
+	border: 0;
+}
+button, html, input, select, textarea {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+a:hover {
+	-o-transition: color .1s ease;
+	transition: color .1s ease;
+}
+.disable-hover, .disable-hover * {
+	pointer-events: none!important;
+}
+a{
+	color: #004d99;
+	text-decoration: none;
+	&:hover{
+		color: #06c;
+		text-decoration: underline;
+		-o-transition: color .1s ease;
+		transition: color .1s ease;
+	}
+}
+
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+
+button, 
+button:active, 
+button:focus,
+button:hover,
+button:checked,
+button:default,
+input{
+	outline: none;
+	-moz-user-select: -moz-none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+//*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,3 +1,38 @@
+# my temp file
+
+# virtual machine crash logs
+hs_err_pid*
+
+
+# Sass files
+.sass-cache/
+*.css.map
+
+#Temp Files
+data/
+img/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# java file
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+#Folder idea
+.idea/
+.idea/*.xml
+
+#Sublime Text 3
+*.sublime-workspace
+*.sublime-project
+
+
+#Word Press
 *.log
 wp-config.php
 wp-content/advanced-cache.php
@@ -15,4 +50,3 @@ wp-content/plugins/hello.php
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
-

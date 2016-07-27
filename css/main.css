@@ -1,0 +1,389 @@
+@charset "UTF-8";
+/*--------------------------  START MEDIA REQUEST  --------------------------*/
+@media only screen and (max-width: 2600px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 5.42092em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 4.07282em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 2.78179em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 1.9em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 1.57025em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 1.29773em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 1.9em;
+  }
+}
+@media only screen and (max-width: 1900px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 4.92811em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 3.70256em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 2.5289em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 1.72727em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 1.4275em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 1.17975em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 1.72727em;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 4.4801em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 3.36597em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 2.299em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 1.57025em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 1.29773em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 1.0725em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 1.57025em;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 4.07282em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 3.05997em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 2.09em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 1.4275em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 1.17975em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 0.975em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 1.4275em;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 3.70256em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 2.78179em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 1.9em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 1.29773em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 1.0725em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 0.88636em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 1.29773em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 3.36597em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 2.5289em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 1.72727em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 1.17975em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 0.975em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 0.80579em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 1.17975em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 3.05997em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 2.299em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 1.57025em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 1.0725em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 0.88636em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 0.73253em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 1.0725em;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 11, sass/main.scss */
+  h1 {
+    font-size: 2.78179em;
+  }
+
+  /* line 14, sass/main.scss */
+  h2 {
+    font-size: 2.09em;
+  }
+
+  /* line 17, sass/main.scss */
+  h3 {
+    font-size: 1.4275em;
+  }
+
+  /* line 20, sass/main.scss */
+  h4 {
+    font-size: 0.975em;
+  }
+
+  /* line 23, sass/main.scss */
+  h5 {
+    font-size: 0.80579em;
+  }
+
+  /* line 26, sass/main.scss */
+  p {
+    font-size: 0.66594em;
+  }
+
+  /* line 29, sass/main.scss */
+  td, th {
+    font-size: 0.975em;
+  }
+}
+/*--------------------------  END MEDIA REQUEST  --------------------------*/
+/* ╨Я╨╡╤А╨╡╤Е╨╛╨┤ */
+/*╨б╨║╤А╤Г╨│╨╗╨╡╨╜╨╜╤Л╨╡ ╤Г╨│╨╗╤Л*/
+/* line 52, sass/main.scss */
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 55, sass/main.scss */
+.inline-block-bottom {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* line 61, sass/main.scss */
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 65, sass/main.scss */
+input {
+  margin: 0;
+  border: 0;
+}
+
+/* line 69, sass/main.scss */
+button, html, input, select, textarea {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 74, sass/main.scss */
+a:hover {
+  -o-transition: color .1s ease;
+  transition: color .1s ease;
+}
+
+/* line 78, sass/main.scss */
+.disable-hover, .disable-hover * {
+  pointer-events: none !important;
+}
+
+/* line 81, sass/main.scss */
+a {
+  color: #004d99;
+  text-decoration: none;
+}
+/* line 84, sass/main.scss */
+a:hover {
+  color: #06c;
+  text-decoration: underline;
+  -o-transition: color .1s ease;
+  transition: color .1s ease;
+}
+
+/* line 93, sass/main.scss */
+.panel-body p {
+  text-indent: 1.5em;
+  /* ╨Ю╤В╤Б╤В╤Г╨┐ ╨┐╨╡╤А╨▓╨╛╨╣ ╤Б╤В╤А╨╛╨║╨╕ */
+  text-align: justify;
+  /* ╨Т╤Л╤А╨░╨▓╨╜╨╕╨▓╨░╨╜╨╕╨╡ ╨┐╨╛ ╤И╨╕╤А╨╕╨╜╨╡ */
+}
+
+/* line 97, sass/main.scss */
+span.code {
+  color: #03721d;
+  /* white-space: pre; */
+  font-family: Andale Mono, Courier New, Courier, monospace;
+}
+
+/* line 102, sass/main.scss */
+div.code{
+  white-space: pre;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0;
+  background-color: #ffffd7;
+  border: 1px solid #000000;
+  font-family: Courier, monospace;
+  margin-bottom: 0.7em;
+  color: #03721d;
+  font-family: Andale Mono, Courier New, Courier, monospace;
+}
+code.code{
+  white-space: pre;
+  padding-left: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0;
+  background-color: #ffffd7;
+  font-family: Courier, monospace;
+  color: #03721d;
+}
+img{
+  max-width: 80%;
+}
