@@ -10,23 +10,19 @@ hs_err_pid*
 
 #Temp Files
 data/
-img/
+#img/
 
 # Package Files #
 *.jar
 *.war
 *.ear
-
 # java file
 *.class
-
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
 #Folder idea
 .idea/
 .idea/*.xml
-
 #Sublime Text 3
 *.sublime-workspace
 *.sublime-project
