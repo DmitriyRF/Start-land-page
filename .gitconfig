@@ -1,0 +1,15 @@
+[credential]
+        helper = cache --timeout=<12600>
+[gui]
+	recentrepo = D:/dima/project
+[gui]
+	recentrepo = C:/Users/Олюшка/Pictures
+[user]
+	name = DmitriyRF
+	email = dmitriy_r_f@mail.ru
+[core]
+	editor = via
+[merge]
+	tool = vimdiff
+[push]
+	default = matching
