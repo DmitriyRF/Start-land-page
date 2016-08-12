@@ -2127,6 +2127,7 @@ pre code {
   }
 }
 @media (min-width: 1200px) {
+
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
    .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
@@ -2287,6 +2288,7 @@ pre code {
 }
 
 @media (min-width: 1400px) {
+
   .col-hd-1, .col-hd-2, .col-hd-3, .col-hd-4, .col-hd-5, .col-hd-6,
    .col-hd-7, .col-hd-8, .col-hd-9, .col-hd-10, .col-hd-11, .col-hd-12 {
     float: left;
@@ -2444,7 +2446,6 @@ pre code {
   .col-hd-offset-0 {
     margin-left: 0%;
   }
-}
 }
 @media (min-width: 1900px) {
   .col-fhd-1, .col-fhd-2, .col-fhd-3, .col-fhd-4, .col-fhd-5, .col-fhd-6,
@@ -2605,7 +2606,6 @@ pre code {
     margin-left: 0%;
   }
 }
-}
 @media (min-width: 2500px) {
   .col-4k-1, .col-4k-2, .col-4k-3, .col-4k-4, .col-4k-5, .col-4k-6,
    .col-4k-7, .col-4k-8, .col-4k-9, .col-4k-10, .col-4k-11, .col-4k-12 {
@@ -2764,7 +2764,6 @@ pre code {
   .col-4k-offset-0 {
     margin-left: 0%;
   }
-}
 }
 table {
   background-color: transparent;

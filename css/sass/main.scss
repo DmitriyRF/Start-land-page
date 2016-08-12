@@ -38,13 +38,13 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 
 /*--------------------------  END MEDIA REQUEST  --------------------------*/
 /* Переход */
-@mixin  my-transition($transition_time){
-	@include transition-property(all);//bourbon mixin
-	@include transition-duration(0s);//bourbon mixin
-	@include transition-timing-function(ease);//bourbon mixin
-	@include transition-delay($transition_time);//bourbon mixin
+/*ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier(x1, y1, x2, y2), step-start, step-end, steps(количество шагов,start|end)*/
+@mixin  my-transition($transition_property,$transition_time,$transition_timing_func,$transition_delay){
+	@include transition-property($transition_property);//bourbon mixin
+	@include transition-duration($transition_time);//bourbon mixin
+	@include transition-timing-function($transition_timing_func);//bourbon mixin
+	@include transition-delay($transition_delay);//bourbon mixin
 }
-
 /*Скругленные углы*/
 @mixin my-border-radius($my_border_radius){
 	@include border-top-radius($my_border_radius);//bourbon mixin
@@ -52,6 +52,63 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 	@include border-bottom-radius($my_border_radius);//bourbon mixin
 	@include border-left-radius($my_border_radius);//bourbon mixin
 }
+/*Задержка анимации*/
+@mixin my-animation-delay($func_var_animation_delay){
+	-webkit-animation-delay: $func_var_animation_delay; /*задержка анимации*/
+  	-moz-animation-delay: $func_var_animation_delay; /*задержка анимации*/
+  	-ms-animation-delay: $func_var_animation_delay; /*задержка анимации*/
+  	-o-animation-delay: $func_var_animation_delay; /*задержка анимации*/
+  	animation-delay: $func_var_animation_delay; /*задержка анимации*/
+}
+/*Количество итераций анимации*/
+@mixin my-animation-iteration-count($func_var_iteration_count){
+	-webkit-animation-iteration-count: $func_var_iteration_count; /*Количество итераций*/
+  	-moz-animation-iteration-count: $func_var_iteration_count; /*Количество итераций*/
+  	-ms-animation-iteration-count: $func_var_iteration_count; /*Количество итераций*/
+  	-o-animation-iteration-count: $func_var_iteration_count; /*Количество итераций*/
+  	animation-iteration-count: $func_var_iteration_count; /*Количество итераций*/
+}
+/*продолжительность анимации*/
+/*infinite*/
+@mixin my-animation-duration($func_var_animation_duration){
+	-webkit-animation-duration: $func_var_animation_duration; /*продолжительность анимации*/
+  	-moz-animation-duration: $func_var_animation_duration; /*продолжительность анимации*/
+  	-ms-animation-duration: $func_var_animation_duration; /*продолжительность анимации*/
+  	-o-animation-duration: $func_var_animation_duration; /*продолжительность анимации*/
+  	animation-duration: $func_var_animation_duration; /*продолжительность анимации*/
+}
+/*Временная функция анимации*/
+/*ease, linear, ease-in, ease-out, ease-in-out, cubic-bezier(x1, y1, x2, y2), step-start, step-end, steps(количество шагов,start|end)*/
+@mixin my-animation-timing-function($func_var_animation_timing_function){
+	-webkit-animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/
+  	-moz-animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/
+  	-ms-animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/
+  	-o-animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/
+  	animation-timing-function: $func_var_animation_timing_function; /*продолжительность анимации*/
+}
+/*Направление анимации*/
+/*alternate,  alternate-reverse, normal, reverse*/
+@mixin my-animation-direction($func_var_animation_direction){
+	-webkit-animation-direction: $func_var_animation_direction;/*Направление анимации*/ 
+	-moz-animation-direction: $func_var_animation_direction;/*Направление анимации*/
+	-ms-animation-direction: $func_var_animation_direction;/*Направление анимации*/
+	-o-animation-direction: $func_var_animation_direction;/*Направление анимации*/
+	animation-direction: $func_var_animation_direction;/*Направление анимации*/
+}
+/*Перед функцией my-animation должен быть создан @keyframes или
+@-webkit-keyframes с именем совпадающим с $func_animation_name*/
+@mixin my-animation( $func_animation_name, $func_animation_duration,
+	$func_animation_timing_function, $func_animation_delay,
+	$func_animation_iteration_count, $func_animation_direction){
+	@each $pref in -webkit-, -moz-, -o-, -ms-{
+    	#{$pref}animation: $func_animation_name $func_animation_duration
+		$func_animation_timing_function $func_animation_delay
+		$func_animation_iteration_count $func_animation_direction;
+ 	}
+ 	animation: $func_animation_name $func_animation_duration
+		$func_animation_timing_function $func_animation_delay
+		$func_animation_iteration_count $func_animation_direction;
+}//@include  my-animation( run, 2s, liner, 0s, 1, normal)
 /*Кнопка*/
 @mixin my-button{
 	padding: 1px 1px 1px 3px;
@@ -180,7 +237,7 @@ html.js .loader_inner {
 	position: absolute;
 }
 
-
+// *{background:linear-gradient(135deg, #81F5BA 1000%,$headerbgc 1000%);}
 button, 
 button:active, 
 button:focus,

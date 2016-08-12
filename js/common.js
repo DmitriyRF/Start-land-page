@@ -1,4 +1,5 @@
-jQuery(document).ready(function ($) {
++function($){
+    jQuery(document).ready(function($){
 
 //Для заполнения всего начального экрана ------------+-------------------------+-------------------------+-------------
 
@@ -24,7 +25,36 @@ jQuery(document).ready(function ($) {
     if(!Modernizr.svg) {
         $("img[src*='svg']").attr("src", function() {
             return $(this).attr("src").replace(".svg", ".png");
-    
+// ANIMATE + WAYPOINTS
+    /*Анимация элемента по клику*/
+    $("").click(function() {
+        $("").animateCss('bounce');
+    });
+    /*Анимация элемента*/
+    $("").hover(
+        function() {
+            $(this).addClass('animated shake');
+        },
+        function() {
+            $(this).removeClass('animated shake');
+        }
+    );
+    /*Анимация элемента + отслеживание окончания анимации*/
+    $("").click(function() {
+        $("").addClass('animated shake');
+    });
+    $("").one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+        $("").addClass('fadeOut', function() {$("").hide();});
+    });
+    /*отслеживание появление элемента при скролинге к верхней точке экоана
+    плюс 90% экрана в итоге точка срабатывания анимации*/
+    $(window).scroll(function() {
+        $("").each(function(){
+            if ($(this).offset().top < $(window).scrollTop() + $(window).height()*0.9){
+                $(this).addClass('animated wobble');
+            }
+        });
+    });
 
 // FANSYBOX  ------------+-------------------------+-------------------------+-------------------------+-------------
 //http://fancyapps.com/
@@ -122,12 +152,13 @@ jQuery(document).ready(function ($) {
             }, 1000);
         });
     });
+        // $(window).load(function() {
+        //     $(".loader_inner").fadeOut();
+        //     $(".loader").delay(400).fadeOut("slow");
 
+        // });
 
 });
 //------------+-------------------------+-------------------------+-------------------------+-------------
-$(window).load(function() {
-    $(".loader_inner").fadeOut();
-    $(".loader").delay(400).fadeOut("slow");
-
-});
+}(jQuery);
+//------------+-------------------------+-------------------------+-------------------------+-------------
