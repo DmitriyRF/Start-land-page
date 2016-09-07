@@ -110,41 +110,28 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 		$func_animation_iteration_count $func_animation_direction;
 }//@include  my-animation( run, 2s, liner, 0s, 1, normal)
 /*Кнопка*/
-@mixin my-button{
-	padding: 1px 1px 1px 3px;
-	border-radius: 5px;
-	border: none;
-	display: inline-block;
-	text-decoration: none;
+@mixin my-button(){
 	outline: none;
 	/*Градиент*/
-	@include background-image(linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%));//bourbon mixin
-	box-shadow:
-		0 1px rgba(255,255,255,.2) inset,
-		0 3px 5px rgba(0,1,6,.5),
-		0 0 1px 1px rgba(0,1,6,.2);
-	text-shadow: 0 -1px 1px #777;
- 	
+	// @include background-image(linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%));//bourbon mixin
+	@include my-box-shadow(0 0 1px rgba(255,255,255,.2) inset,0 3px 5px rgba(0,1,6,.5));
  	&:hover:not(:disabled){
  		top: -0.1em;
 		left: -0.1em;
-		box-shadow:
-			0 2px rgba(255,255,255,.3) inset,
-			0 4px 6px rgba(0,1,6,.6),
-			0 0 2px 2px rgba(0,1,6,.3);
-
+		@include my-box-shadow(0 0 2px rgba(255,255,255,.3) inset,0 4px 6px rgba(0,1,6,.6));
 	}
-
 	&:active:not(:disabled){
 		top: 0.1em;
 		left: 0.1em;
-		-webkit-box-shadow,-moz-box-shadow,box-shadow:
-			0 0 1px rgba(0,0,0,.5) inset,
-			0 2px 3px rgba(0,0,0,.5) inset,
-			0 1px 1px rgba(255,255,255,.1);
+		@include my-box-shadow(0 0 1px rgba(0,0,0,.5) inset,0 2px 3px rgba(0,0,0,.5) inset)
 	}
 	&:disabled{}
 	
+}
+@mixin my-box-shadow($arg...){
+		-webkit-box-shadow: $arg;
+		-moz-box-shadow: $arg;
+		box-shadow: $arg;
 }
 
 .inline-block {
