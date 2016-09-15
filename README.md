@@ -7,21 +7,26 @@
 
 
 <ul>
-	<li><a href=""></a>Технологии
-		<ol>
-			<li><a href="">HTML5</a></li>
-			<li><a href="">CSS3</a></li>
-			<li><a href="">JavaScript</a></li>
-			<li><a href="http://jquery.com/">JQuery</a></li>
+	<li><a href=""></a>Программы
+		<ul>
+			<li><a href="http://sublimetext.com">Sublime Text 3</a> —— Редактор для фронт-енда</li>
+			<li><a href="http://jetbrains.com/phpstorm" target="_blank">WebStorm</a> - Редактор для бэк-енда</li>
 			<li><a href=""></a></li>
 			<li><a href=""></a></li>
 			<li><a href=""></a></li>
 			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-			<li><a href=""></a></li>
-		</ol>
+		</ul>
 	</li>
-	<li><a href=""></a></li>
+	<li><a href=""></a>Технологии
+		<ul>
+			<li><a href="http://www.w3schools.com/html/html_basic.asp" target="_blank" >HTML5</a> —— Язык разметки гипертекста</li>
+			<li><a href="https://webref.ru/css/" target="_blank" >CSS3</a> —— Стили оформления HTML </li>
+			<li><a href="http://sass-scss.ru/" target="_blank" >SASS</a></li>
+			<li><a href="" target="_blank" >JavaScript</a></li>
+			<li><a href="http://jquery.com/" target="_blank">JQuery</a> —— Популярнейший javaScript Framework</li>
+		</ul>
+	</li>
+	
 	<li><a href=""></a></li>
 	<li><a href=""></a></li>
 	<li><a href=""></a></li>
@@ -49,7 +54,6 @@
 	<li><a href="http://fontweb.ru" target="_blank">fontweb.ru</a> - Шриты для веб-дизайна и верстки</li>
 	<li><a href="http://elementary.io" target="_blank">elementary.io</a> - Спасибо за логотип :)</li>
 	<li><a href="http://getbootstrap.com" target="_blank">getbootstrap.com</a> - Адаптивная сетка</li>
-	<li><a href="http://jquery.com" target="_blank">jquery.com</a> - Популярнейший javaScript Framework</li>
 	<li><a href="http://stocksnap.io" target="_blank">stocksnap.io</a> - Сервис качественных бесплатных фотографий для веб-дизайна</li>
 	<li><a href="http://wireframe.cc/fEKu0b" target="_blank">wireframe.cc</a> - Отличный сервис для скетчинга</li>
 	<li><a href="http://gist.github.com/agragregra" target="_blank">gist.github.com</a> - Сервис для хранения полезного кода</li>
@@ -67,7 +71,6 @@
 	<li><a href="http://sass-lang.com" target="_blank">sass-lang.com</a> - Препроцессор SASS</li>
 	<li><a href="http://koala-app.com" target="_blank">koala-app.com</a> - Компилятор для препроцессоров</li>
 	<li><a href="http://fontsquirrel.com/fonts/raleway" target="_blank">fontsquirrel.com/fonts/raleway</a> - Бесплатный шрифт для нашей темы</li>
-	<li><a href="http://sublimetext.com" target="_blank">sublimetext.com</a> - Редактор для фронт-енда</li>
 	<li><a href="http://jetbrains.com/phpstorm" target="_blank">jetbrains.com/phpstorm</a> - Редактор для бэк-енда</li>
 	<li><a href="http://formspree.io" target="_blank">formspree.io</a> - Отправка заявок с сайта</li>
 </ul>
