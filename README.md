@@ -1,9 +1,48 @@
 # Шаблон Landing Page
 
 ![Шаблон Landing Page](https://raw.githubusercontent.com/DmitriyRF/Start-land-page/master/adaptive.jpg)
-<p>Бесплатный видеокурс по созданию одностраничного сайта на WordPress от А до Я.</p>
 
-<h3>Что использовали:</h3>
+<p>Данный шаблон собран из разных частей кода в интернете и добавленый свои собственные находки.
+Для упрощения работы, и решения типовых задач используются готовые решения найденые в интернете и распространяющиеся на свободных правах. Ниже описаны данные технологии</p>
+
+
+<ul>
+	<li><a href=""></a>Технологии
+		<ol>
+			<li><a href="">HTML5</a></li>
+			<li><a href="">CSS3</a></li>
+			<li><a href="">JavaScript</a></li>
+			<li><a href="http://jquery.com/">JQuery</a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+		</ol>
+	</li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+	<li><a href=""></a></li>
+</ul>
+
+<h3>Что использовали:(<a href="https://github.com/agragregra/wordpress-landing-page-lesson">ссылка на источник</a>)</h3>
 
 <ul>
 	<li><a href="http://ru.wordpress.org" target="_blank">ru.wordpress.org</a> - Собственной персоной</li>
