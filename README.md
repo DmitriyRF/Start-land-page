@@ -16,8 +16,6 @@
 			<li><a href="http://sass-lang.com" target="_blank">sass-lang.com</a> — Препроцессор SASS</li>
 			<li><a href="http://inkscape.org" target="_blank">inkscape.org</a> — Векторный редактор SVG</li>
 			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
 	<li><b>Технологии</b>
@@ -34,18 +32,12 @@
 		<ul>
 			<li><a href="http://bootstrap-3.ru/css.php#grid" target="_blank">Bootstrap 3</a> — Фреймворк для разработки адаптивных и мобильных web-проектов</li>
 			<li><a href="http://getbootstrap.com" target="_blank">getbootstrap.com</a> — Адаптивная сетка</li>
-			<li><a href="http://bourbon.io" target="_blank">bourbon.io</a> — Коллекция миксинов для SASS</li>
+			<li><a href="http://bourbon.io" target="_blank">Bourbon(Neat/Bitters/Refills)</a> — Коллекция миксинов для SASS(Сетка/тепография/Патерны)</li>
 			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="http://daneden.github.io/animate.css" target="_blank">daneden.github.io/animate.css</a> — Анимация элементов на странице</li>
+			<li><a href="http://daneden.github.io/animate.css" target="_blank">Animate.css</a> — Анимация элементов на странице</li>
 			<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">FortAwesome</a> — Векторные иконки. Использовали для соц. сетей</li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="https://www.fontsquirrel.com/tools/webfont-generator" target="_blank">Webfont Generator</a> — Конвертер шрифтов</li>
+			<li><a href="http://bxslider.com/" target="_blank">bxSlider</a> — Responsive jQuery Content Slider</li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
@@ -56,48 +48,55 @@
 			<li><a href="http://github.com/malihu/page-scroll-to-id" target="_blank">github.com/malihu/page-scroll-to-id</a> — Плагин навигации по Landing Page</li>
 			<li><a href="http://formspree.io" target="_blank">formspree.io</a> — Отправка заявок с сайта</li>
 			<li><a href="http://mixitup.kunkalabs.com" target="_blank">mixitup.kunkalabs.com</a> — Сортабельные анимированные плитки в портфолио</li>
+			<li><a href="https://modernizr.com/download?setclasses" target="_blank">Modernizr</a> — Библеотека для проверки функционала браузера</li>
+			<li><a href="https://github.com/dirkgroenen/jQuery-viewport-checker" target="_blank">jQuery viewport checker</a> — Cкрипт, который обнаруживает, если элемент находится в окне просмотра и добавляет класс к нему</li>
+			<li><a href="http://digitalbush.com/projects/masked-input-plugin" target="_blank">MASKED INPUT PLUGIN</a> — Плагин маски для input-ов</li>
+			<li><a href="http://dimox.name/jquery-form-styler/" target="_blank">jQuery Form Styler</a> — Плагин для стилизации селектов, чекбоксов, радиокнопок, файловых и числовых полей</li>
+			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="http://dabblet.com/" target="_blank">Dabblet</a> — Сайт HTML+CSS+JS</li>
+			<li><a href="https://jsfiddle.net/" target="_blank">Jsfiddle</a> — Сайт HTML+CSS+JS</li>
 			<li><a href="http://stocksnap.io" target="_blank">stocksnap.io</a> — Сервис качественных бесплатных фотографий для веб-дизайна</li>
 			<li><a href="http://wireframe.cc/fEKu0b" target="_blank">wireframe.cc</a> — Отличный сервис для скетчинга</li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="http://fontweb.ru" target="_blank">fontweb.ru</a> — Шриты для веб-дизайна и верстки</li>
-			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="http://www.dailycoding.com/Utils/Converter/ImageToBase64.aspx" target="_blank">Image Base64 Converter</a> — Конвертор изображений в формат Base64(текст)</li>
+			<li><a href="http://www.css3factory.com/linear-gradients/" target="_blank">CSS Gradient Generator</a> — Генератор CSS3 градиентов</li>
+			<li><a href="http://fancyapps.com/fancybox/" target="_blank">fancyBox</a> — Просмотр изображений во весь экран</li>
+			<li><a href="http://fontweb.ru" target="_blank">Fontweb</a> — Шриты для веб-дизайна и верстки</li>
+			<li><a href="http://fonts4web.ru/" target="_blank">Fonts4Web</a> — Русские шрифты в комплектации</li>
 		</ul>
 	</li>
 	<li>Авторские сборки решений
 		<ul>
 			<li><a href="http://keith-wood.name/">jQuery plugins by Keith Wood</a> — Авторская сборка плагинов,(я использовал jQuery Countdown)</li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="http://www.thepetedesign.com/#plugins" target="_blank">Pete design</a> — JQuery плагины для сайта</li>
+			<li><a href="http://ruseller.com/" target="_blank">Ruseller</a> — Коллекция материалов для тех, кто делает сайты</li>
+			<li><a href="http://tympanus.net/codrops/" target="_blank">codrops</a> — Сборка хороших решений и туториалов</li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
 	<li><b>Google</b>
 		<ul>
-			<li><a href="https://developers.google.com/" target="_blank">Developers</a> — Продукты Google</li>
-			<li><a href="https://fonts.google.com/" target="_blank">Fonts</a> — Шрифты Google</li>
-			<li><a href="https://www.google.com/intl/ru/webmasters" target="_blank"> — Для веб-мастеров</a></li>
-			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="https://developers.google.com/" target="_blank">Developers</a> — Продукты Google для разработчиков</li>
+			<li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> — Шрифты Google</li>
+			<li><a href="https://www.google.com/intl/ru/webmasters" target="_blank">Link</a> — Для веб-мастеров</li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
 	<li><b>Yandex</b>
 		<ul>
 			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
-			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
-	<li><a href=""></a></li>
+	<li>Справочники и обучающие сайты
+		<ul>
+			<li><a href="http://everstudent.ru/blog/htmlcss/30-css-seletors-to-memorize/" target="_blank">30 CSS-селекторов</a> — Которые вы должны запомнить</li>	
+			<li><a href="https://developer.mozilla.org/ru/" target="_blank">MDN</a> — Mozilla Developers Network</li>
+			<li><a href="http://webdesign-master.ru/blog/html-css/2.html" target="_blank">Справочник EMMET</a> — сокращения для ускорения верстки</li>
+			<li><a href="http://sass-scss.ru/documentation/" target="_blank">SASS</a> — Документация по SASS</li>
+			<li><a href="http://uleming.github.io/gitbook/index.html" target="_blank">Git Community Book</a> — Книга сообщества Git по использованию Git</li>
+			<li><a href="http://learngitbranching.js.org/" target="_blank">LearnGitBranching</a> — Приложение по работе с Git</li>
+			<li><a href="http://www.ibm.com/developerworks/ru/" target="_blank">IBM developer works</a> — Статьи и ресурсы/Технические материалы</li>
+		</ul>
+	</li>
 </ul>
 
 <h3>Что использовали:(<a href="https://github.com/agragregra/wordpress-landing-page-lesson">ссылка на источник</a>)</h3>
