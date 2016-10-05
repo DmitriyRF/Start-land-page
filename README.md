@@ -28,7 +28,7 @@
 			<li><a href="http://jquery.com/" target="_blank">JQuery</a> — Популярнейший javaScript Framework</li>
 		</ul>
 	</li>
-	<li>Фраемворки и библеотеки
+	<li><b>Фраемворки и библеотеки</b>
 		<ul>
 			<li><a href="http://bootstrap-3.ru/css.php#grid" target="_blank">Bootstrap 3</a> — Фреймворк для разработки адаптивных и мобильных web-проектов</li>
 			<li><a href="http://getbootstrap.com" target="_blank">getbootstrap.com</a> — Адаптивная сетка</li>
@@ -41,7 +41,7 @@
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
-	<li>Отдельные решения и сайты/сервисы
+	<li><b>Отдельные решения и сайты/сервисы</b>
 		<ul>
 			
 			<li><a href="http://imakewebthings.com/waypoints" target="_blank">imakewebthings.com/waypoints</a> — Триггер для скролла</li>
@@ -64,7 +64,7 @@
 			<li><a href="http://fonts4web.ru/" target="_blank">Fonts4Web</a> — Русские шрифты в комплектации</li>
 		</ul>
 	</li>
-	<li>Авторские сборки решений
+	<li><</b>b>Авторские сборки решений</b>
 		<ul>
 			<li><a href="http://keith-wood.name/">jQuery plugins by Keith Wood</a> — Авторская сборка плагинов,(я использовал jQuery Countdown)</li>
 			<li><a href="http://www.thepetedesign.com/#plugins" target="_blank">Pete design</a> — JQuery плагины для сайта</li>
@@ -86,7 +86,7 @@
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
-	<li>Справочники и обучающие сайты
+	<li><b>Справочники и обучающие сайты</b>
 		<ul>
 			<li><a href="http://everstudent.ru/blog/htmlcss/30-css-seletors-to-memorize/" target="_blank">30 CSS-селекторов</a> — Которые вы должны запомнить</li>	
 			<li><a href="https://developer.mozilla.org/ru/" target="_blank">MDN</a> — Mozilla Developers Network</li>
