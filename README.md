@@ -14,36 +14,32 @@
 			<li><a href="http://gist.github.com/agragregra" target="_blank">Git</a> — Программа для контроля версий</li>
 			<li><a href="http://koala-app.com" target="_blank">koala-app.com</a> — Компилятор для препроцессоров</li>
 			<li><a href="http://inkscape.org" target="_blank">inkscape.org</a> — Векторный редактор SVG</li>
-			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
 	<li><b>Технологии</b>
 		<ul>
 			<li><a href="http://www.w3schools.com/html/html_basic.asp" target="_blank" >HTML5</a> — Язык разметки гипертекста</li>
 			<li><a href="https://webref.ru/css/" target="_blank" >CSS3</a> — Стили оформления HTML </li>
-			<li><a href="http://sass-scss.ru/" target="_blank" >SASS</a> — </li>
+			<li><a href="http://sass-scss.ru/" target="_blank" >SASS</a> — это скриптовый метаязык, который компилируется в обычные CSS-стили.</li>
 			<li><a href="http://sass-lang.com" target="_blank">sass-lang.com</a> — Препроцессор SASS</li>
-			<li><a href="" target="_blank" >JavaScript</a> — </li>
-			<li><a href="http://jquery.com/" target="_blank">JQuery</a> — Популярнейший javaScript Framework</li>
+			<li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference" target="_blank" >JavaScript</a> — прототипно-ориентированный сценарный язык программирования.</li>
 		</ul>
 	</li>
 	<li><b>Фраемворки и библеотеки</b>
 		<ul>
 			<li><a href="http://bootstrap-3.ru/css.php#grid" target="_blank">Bootstrap 3</a> — Фреймворк для разработки адаптивных и мобильных web-проектов</li>
 			<li><a href="http://getbootstrap.com" target="_blank">getbootstrap.com</a> — Адаптивная сетка</li>
+			<li><a href="http://jquery.com/" target="_blank">JQuery</a> — Популярнейший javaScript Framework</li>
 			<li><a href="http://bourbon.io" target="_blank">Bourbon(Neat/Bitters/Refills)</a> — Коллекция миксинов для SASS(Сетка/тепография/Патерны)</li>
-			<li><a href="" target="_blank"></a> — </li>
 			<li><a href="http://daneden.github.io/animate.css" target="_blank">Animate.css</a> — Анимация элементов на странице</li>
 			<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">FortAwesome</a> — Векторные иконки. Использовали для соц. сетей</li>
 			<li><a href="https://www.fontsquirrel.com/tools/webfont-generator" target="_blank">Webfont Generator</a> — Конвертер шрифтов</li>
 			<li><a href="http://bxslider.com/" target="_blank">bxSlider</a> — Responsive jQuery Content Slider</li>
 			<li><a href="http://snapsvg.io/" target="_blank">Snap.svg</a> — JavaScript SVG библиотека для изменеия векторных картинок.</li>
-			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
 	<li><b>Отдельные решения и сайты/сервисы</b>
 		<ul>
-			
 			<li><a href="http://imakewebthings.com/waypoints" target="_blank">imakewebthings.com/waypoints</a> — Триггер для скролла</li>
 			<li><a href="http://github.com/malihu/page-scroll-to-id" target="_blank">github.com/malihu/page-scroll-to-id</a> — Плагин навигации по Landing Page</li>
 			<li><a href="http://formspree.io" target="_blank">formspree.io</a> — Отправка заявок с сайта</li>
@@ -52,7 +48,6 @@
 			<li><a href="https://github.com/dirkgroenen/jQuery-viewport-checker" target="_blank">jQuery viewport checker</a> — Cкрипт, который обнаруживает, если элемент находится в окне просмотра и добавляет класс к нему</li>
 			<li><a href="http://digitalbush.com/projects/masked-input-plugin" target="_blank">MASKED INPUT PLUGIN</a> — Плагин маски для input-ов</li>
 			<li><a href="http://dimox.name/jquery-form-styler/" target="_blank">jQuery Form Styler</a> — Плагин для стилизации селектов, чекбоксов, радиокнопок, файловых и числовых полей</li>
-			<li><a href="" target="_blank"></a> — </li>
 			<li><a href="http://dabblet.com/" target="_blank">Dabblet</a> — Сайт HTML+CSS+JS</li>
 			<li><a href="https://jsfiddle.net/" target="_blank">Jsfiddle</a> — Сайт HTML+CSS+JS</li>
 			<li><a href="http://stocksnap.io" target="_blank">stocksnap.io</a> — Сервис качественных бесплатных фотографий для веб-дизайна</li>
@@ -64,7 +59,7 @@
 			<li><a href="http://fonts4web.ru/" target="_blank">Fonts4Web</a> — Русские шрифты в комплектации</li>
 		</ul>
 	</li>
-	<li><</b>b>Авторские сборки решений</b>
+	<li><b>Авторские сборки решений</b>
 		<ul>
 			<li><a href="http://keith-wood.name/">jQuery plugins by Keith Wood</a> — Авторская сборка плагинов,(я использовал jQuery Countdown)</li>
 			<li><a href="http://www.thepetedesign.com/#plugins" target="_blank">Pete design</a> — JQuery плагины для сайта</li>
@@ -78,7 +73,6 @@
 			<li><a href="https://developers.google.com/" target="_blank">Developers</a> — Продукты Google для разработчиков</li>
 			<li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a> — Шрифты Google</li>
 			<li><a href="https://www.google.com/intl/ru/webmasters" target="_blank">Link</a> — Для веб-мастеров</li>
-			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
 	<li><b>Yandex</b>
