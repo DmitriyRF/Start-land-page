@@ -39,6 +39,8 @@
 	<li><b>Отдельные решения и сайты/сервисы</b>
 		<ul>
 			<li><a href="http://imakewebthings.com/waypoints" target="_blank">imakewebthings.com/waypoints</a> — Триггер для скролла</li>
+			<li><a href="http://pixelcog.github.io/parallax.js" target="_blank">pixelcog.github.io/parallax.js</a> — Параллакс эффект</li>
+			<li><a href="http://dimsemenov.com/plugins/magnific-popup" target="_blank">dimsemenov.com/plugins/magnific-popup</a> — Респонсив попап менеджер</li>
 			<li><a href="http://github.com/malihu/page-scroll-to-id" target="_blank">github.com/malihu/page-scroll-to-id</a> — Плагин навигации по Landing Page</li>
 			<li><a href="http://formspree.io" target="_blank">formspree.io</a> — Отправка заявок с сайта</li>
 			<li><a href="http://mixitup.kunkalabs.com" target="_blank">mixitup.kunkalabs.com</a> — Сортабельные анимированные плитки в портфолио</li>
@@ -63,7 +65,7 @@
 			<li><a href="http://www.entypo.com/index.php" target="_blank">Entypo+</a> — Шрифт иконок</li>
 			<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">FortAwesome</a> — Векторные иконки. Использовали для соц. сетей</li>
 			<li><a href="http://linea.io" target="_blank">linea.io</a> — Тонкие векторные иконки</li>
-			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="https://www.fontsquirrel.com/" target="_blank">FontsQuirrel</a> — Сборник некомерческих шрифтов</li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
@@ -79,6 +81,7 @@
 			<li><a href="http://www.thepetedesign.com/#plugins" target="_blank">Pete design</a> — JQuery плагины для сайта</li>
 			<li><a href="http://ruseller.com/" target="_blank">Ruseller</a> — Коллекция материалов для тех, кто делает сайты</li>
 			<li><a href="http://tympanus.net/codrops/" target="_blank">codrops</a> — Сборка хороших решений и туториалов</li>
+			<li><a href="http://codepen.io/anon/pen/azYBoX" target="_blank">CodePen</a> — Много интересного кода.</li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
@@ -108,14 +111,8 @@
 </ul>
 
 <h3>Что использовали:(<a href="https://github.com/agragregra/wordpress-landing-page-lesson">ссылка на источник</a>)</h3>
-
 <ul>
 	<li><a href="http://ru.wordpress.org" target="_blank">WordPress</a> — Сайт ru.wordpress.org</li>
-	<li><a href="http://elementary.io" target="_blank">elementary.io</a> — Спасибо за логотип :)</li>
-	
-	<li><a href="http://codepen.io/anon/pen/azYBoX" target="_blank">codepen.io</a> — Много интересного кода. Спасибо за Sandwich :)</li>
-	<li><a href="http://pixelcog.github.io/parallax.js" target="_blank">pixelcog.github.io/parallax.js</a> — Параллакс эффект</li>
-	<li><a href="http://dimsemenov.com/plugins/magnific-popup" target="_blank">dimsemenov.com/plugins/magnific-popup</a> — Респонсив попап менеджер</li>
-	<li><a href="http://fontsquirrel.com/fonts/raleway" target="_blank">fontsquirrel.com/fonts/raleway</a> — Бесплатный шрифт для нашей темы</li>
+	<li><a href="http://elementary.io" target="_blank">elementary.io</a> — Быстрая и открытая замена Windows и macOS</li>
 	
 </ul>
