@@ -23,6 +23,17 @@
 			<li><a href="http://sass-scss.ru/" target="_blank" >[SASS](http://sass-lang.com)</a> — это скриптовый метаязык, который компилируется в обычные CSS-стили.</li>
 			<li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference" target="_blank" >JavaScript</a> — прототипно-ориентированный сценарный язык программирования.</li>
 		</ul>
+	</li> 
+	<li><b>Препроцессоры и шаблонизаторы</b>
+		<ul>
+			<li><a href="" target="_blank">HAML</a> — HTML препроцессор</li>
+			<li><a href="" target="_blank">Slim</a> — HTML препроцессор</li>
+			<li><a href="" target="_blank">pug(Jade)</a> — HTML препроцессор</li>
+			<li><a href="" target="_blank">Plim</a> — наиболее полный порт шаблонизатора Slim на Python</li>
+			<li><a href="" target="_blank">SCSS/SASS</a> — CSS препроцессор</li>
+			<li><a href="" target="_blank">Less</a> — CSS препроцессор</li>
+			<li><a href="" target="_blank">Stylus</a> — CSS препроцессор</li>
+		</ul>
 	</li>
 	<li><b>Фраемворки и библеотеки</b>
 		<ul>
