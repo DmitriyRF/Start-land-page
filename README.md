@@ -31,7 +31,6 @@
 			<li><a href="http://jquery.com/" target="_blank">JQuery</a> — Популярнейший javaScript Framework</li>
 			<li><a href="http://bourbon.io" target="_blank">Bourbon(Neat/Bitters/Refills)</a> — Коллекция миксинов для SASS(Сетка/тепография/Патерны)</li>
 			<li><a href="http://daneden.github.io/animate.css" target="_blank">Animate.css</a> — Анимация элементов на странице</li>
-			<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">FortAwesome</a> — Векторные иконки. Использовали для соц. сетей</li>
 			<li><a href="https://www.fontsquirrel.com/tools/webfont-generator" target="_blank">Webfont Generator</a> — Конвертер шрифтов</li>
 			<li><a href="http://bxslider.com/" target="_blank">bxSlider</a> — Responsive jQuery Content Slider</li>
 			<li><a href="http://snapsvg.io/" target="_blank">Snap.svg</a> — JavaScript SVG библиотека для изменеия векторных картинок.</li>
@@ -54,10 +53,24 @@
 			<li><a href="http://www.dailycoding.com/Utils/Converter/ImageToBase64.aspx" target="_blank">Image Base64 Converter</a> — Конвертор изображений в формат Base64(текст)</li>
 			<li><a href="http://www.css3factory.com/linear-gradients/" target="_blank">CSS Gradient Generator</a> — Генератор CSS3 градиентов</li>
 			<li><a href="http://fancyapps.com/fancybox/" target="_blank">fancyBox</a> — Просмотр изображений во весь экран</li>
-			<li><a href="http://fontweb.ru" target="_blank">Fontweb</a> — Шриты для веб-дизайна и верстки</li>
-			<li><a href="http://fonts4web.ru/" target="_blank">Fonts4Web</a> — Русские шрифты в комплектации</li>
 			<li><a href="http://draggabilly.desandro.com/" target="_blank">Draggabilly</a> — Js оешение для перетаскиваемости объектов</li>
-			Draggabilly
+		</ul>
+	</li>
+	<li><b>Шрифты и Иконки</b>
+		<ul>
+			<li><a href="http://fonts4web.ru/" target="_blank">Fonts4Web</a> — Русские шрифты в комплектации</li>
+			<li><a href="http://fontweb.ru" target="_blank">Fontweb</a> — Шриты для веб-дизайна и верстки</li>
+			<li><a href="http://www.entypo.com/index.php" target="_blank">Entypo+</a> — Шрифт иконок</li>
+			<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">FortAwesome</a> — Векторные иконки. Использовали для соц. сетей</li>
+			<li><a href="http://linea.io" target="_blank">linea.io</a> — Тонкие векторные иконки</li>
+			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="" target="_blank"></a> — </li>
+		</ul>
+	</li>
+	<li><b>Сайты бесплатных картинок</b>
+		<ul>
+			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
 	<li><b>Авторские сборки решений</b>
@@ -99,7 +112,7 @@
 <ul>
 	<li><a href="http://ru.wordpress.org" target="_blank">WordPress</a> — Сайт ru.wordpress.org</li>
 	<li><a href="http://elementary.io" target="_blank">elementary.io</a> — Спасибо за логотип :)</li>
-	<li><a href="http://linea.io" target="_blank">linea.io</a> — Тонкие векторные иконки</li>
+	
 	<li><a href="http://codepen.io/anon/pen/azYBoX" target="_blank">codepen.io</a> — Много интересного кода. Спасибо за Sandwich :)</li>
 	<li><a href="http://pixelcog.github.io/parallax.js" target="_blank">pixelcog.github.io/parallax.js</a> — Параллакс эффект</li>
 	<li><a href="http://dimsemenov.com/plugins/magnific-popup" target="_blank">dimsemenov.com/plugins/magnific-popup</a> — Респонсив попап менеджер</li>
