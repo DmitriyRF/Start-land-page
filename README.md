@@ -13,7 +13,6 @@
 			<li><a href="http://jetbrains.com/phpstorm" target="_blank">WebStorm</a> — Редактор для бэк-енда</li>
 			<li><a href="http://gist.github.com/agragregra" target="_blank">Git</a> — Программа для контроля версий</li>
 			<li><a href="http://koala-app.com" target="_blank">koala-app.com</a> — Компилятор для препроцессоров</li>
-			<li><a href="http://sass-lang.com" target="_blank">sass-lang.com</a> — Препроцессор SASS</li>
 			<li><a href="http://inkscape.org" target="_blank">inkscape.org</a> — Векторный редактор SVG</li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
@@ -38,6 +37,7 @@
 			<li><a href="http://fortawesome.github.io/Font-Awesome" target="_blank">FortAwesome</a> — Векторные иконки. Использовали для соц. сетей</li>
 			<li><a href="https://www.fontsquirrel.com/tools/webfont-generator" target="_blank">Webfont Generator</a> — Конвертер шрифтов</li>
 			<li><a href="http://bxslider.com/" target="_blank">bxSlider</a> — Responsive jQuery Content Slider</li>
+			<li><a href="http://snapsvg.io/" target="_blank">Snap.svg</a> — JavaScript SVG библиотека для изменеия векторных картинок.</li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
