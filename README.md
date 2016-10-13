@@ -20,8 +20,7 @@
 		<ul>
 			<li><a href="http://www.w3schools.com/html/html_basic.asp" target="_blank" >HTML5</a> — Язык разметки гипертекста</li>
 			<li><a href="https://webref.ru/css/" target="_blank" >CSS3</a> — Стили оформления HTML </li>
-			<li><a href="http://sass-scss.ru/" target="_blank" >SASS</a> — это скриптовый метаязык, который компилируется в обычные CSS-стили.</li>
-			<li><a href="http://sass-lang.com" target="_blank">sass-lang.com</a> — Препроцессор SASS</li>
+			<li><a href="http://sass-scss.ru/" target="_blank" >[SASS](http://sass-lang.com)</a> — это скриптовый метаязык, который компилируется в обычные CSS-стили.</li>
 			<li><a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference" target="_blank" >JavaScript</a> — прототипно-ориентированный сценарный язык программирования.</li>
 		</ul>
 	</li>
@@ -57,6 +56,8 @@
 			<li><a href="http://fancyapps.com/fancybox/" target="_blank">fancyBox</a> — Просмотр изображений во весь экран</li>
 			<li><a href="http://fontweb.ru" target="_blank">Fontweb</a> — Шриты для веб-дизайна и верстки</li>
 			<li><a href="http://fonts4web.ru/" target="_blank">Fonts4Web</a> — Русские шрифты в комплектации</li>
+			<li><a href="http://draggabilly.desandro.com/" target="_blank">Draggabilly</a> — Js оешение для перетаскиваемости объектов</li>
+			Draggabilly
 		</ul>
 	</li>
 	<li><b>Авторские сборки решений</b>
