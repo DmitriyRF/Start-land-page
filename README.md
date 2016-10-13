@@ -53,6 +53,7 @@
 			<li><a href="http://pixelcog.github.io/parallax.js" target="_blank">pixelcog.github.io/parallax.js</a> — Параллакс эффект</li>
 			<li><a href="http://dimsemenov.com/plugins/magnific-popup" target="_blank">dimsemenov.com/plugins/magnific-popup</a> — Респонсив попап менеджер</li>
 			<li><a href="http://github.com/malihu/page-scroll-to-id" target="_blank">github.com/malihu/page-scroll-to-id</a> — Плагин навигации по Landing Page</li>
+			<li><a href="https://github.com/wayou/sliphover/" target="_blank">SlipHover</a> — Плагин указывающий направление при анимации наведения</li>
 			<li><a href="http://formspree.io" target="_blank">formspree.io</a> — Отправка заявок с сайта</li>
 			<li><a href="http://mixitup.kunkalabs.com" target="_blank">mixitup.kunkalabs.com</a> — Сортабельные анимированные плитки в портфолио</li>
 			<li><a href="https://modernizr.com/download?setclasses" target="_blank">Modernizr</a> — Библеотека для проверки функционала браузера</li>
