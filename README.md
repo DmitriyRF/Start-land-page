@@ -43,6 +43,7 @@
 			<li><a href="http://bourbon.io" target="_blank">Bourbon(Neat/Bitters/Refills)</a> — Коллекция миксинов для SASS(Сетка/тепография/Патерны)</li>
 			<li><a href="http://daneden.github.io/animate.css" target="_blank">Animate.css</a> — Анимация элементов на странице</li>
 			<li><a href="https://www.fontsquirrel.com/tools/webfont-generator" target="_blank">Webfont Generator</a> — Конвертер шрифтов</li>
+			<li><a href="http://schema.org/docs/full.html" target="_blank">Schema.org</a> — Семантическая разметка сайтов</li>
 			<li><a href="http://bxslider.com/" target="_blank">bxSlider</a> — Responsive jQuery Content Slider</li>
 			<li><a href="http://snapsvg.io/" target="_blank">Snap.svg</a> — JavaScript SVG библиотека для изменеия векторных картинок.</li>
 		</ul>
@@ -106,6 +107,15 @@
 	</li>
 	<li><b>Yandex</b>
 		<ul>
+			<li><a href="" target="_blank"></a> — </li>
+		</ul>
+	</li>
+	<li><b>Тестирование</b>
+		<ul>
+			<li><a href="https://webmaster.yandex.ru/tools/microtest/" target="_blank">Валидатор микроразметки</a> — позволяет проверить семантическую разметку, внедренную на вашем сайте.</li>
+			<li><a href="https://search.google.com/structured-data/testing-tool" target="_blank">Проверка структурированных данных</a> — позволяет проверить семантическую разметку, внедренную на вашем сайте.</li>
+			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="" target="_blank"></a> — </li>
 			<li><a href="" target="_blank"></a> — </li>
 		</ul>
 	</li>
