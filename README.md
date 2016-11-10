@@ -61,6 +61,7 @@
 			<li><a href="https://github.com/dirkgroenen/jQuery-viewport-checker" target="_blank">jQuery viewport checker</a> — Cкрипт, который обнаруживает, если элемент находится в окне просмотра и добавляет класс к нему</li>
 			<li><a href="http://digitalbush.com/projects/masked-input-plugin" target="_blank">MASKED INPUT PLUGIN</a> — Плагин маски для input-ов</li>
 			<li><a href="http://dimox.name/jquery-form-styler/" target="_blank">jQuery Form Styler</a> — Плагин для стилизации селектов, чекбоксов, радиокнопок, файловых и числовых полей</li>
+			<li><a href="http://spin.js.org/" target="_blank">spin.js</a> — создание прелодера как у youtuba на JS</li>
 			<li><a href="http://dabblet.com/" target="_blank">Dabblet</a> — Сайт HTML+CSS+JS</li>
 			<li><a href="https://jsfiddle.net/" target="_blank">Jsfiddle</a> — Сайт HTML+CSS+JS</li>
 			<li><a href="http://stocksnap.io" target="_blank">stocksnap.io</a> — Сервис качественных бесплатных фотографий для веб-дизайна</li>
@@ -95,7 +96,8 @@
 			<li><a href="http://ruseller.com/" target="_blank">Ruseller</a> — Коллекция материалов для тех, кто делает сайты</li>
 			<li><a href="http://tympanus.net/codrops/" target="_blank">codrops</a> — Сборка хороших решений и туториалов</li>
 			<li><a href="http://codepen.io/anon/pen/azYBoX" target="_blank">CodePen</a> — Много интересного кода.</li>
-			<li><a href="" target="_blank"></a> — </li>
+			<li><a href="http://manos.malihu.gr/" target="_blank">manos</a> — Page scroll to id, Event based jQuery element resize, jQuery image panning, jQuery custom content scroller, jQuery thumbnail scroller</li>
+			<li><a href="http://cubiq.org/category/projects" target="_blank">cubiq.org</a> — iScroll 5, InfiniWall, и похожие фишки</li>
 		</ul>
 	</li>
 	<li><b>Google</b>
