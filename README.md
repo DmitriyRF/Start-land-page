@@ -69,7 +69,9 @@
 			<li><a href="http://www.dailycoding.com/Utils/Converter/ImageToBase64.aspx" target="_blank">Image Base64 Converter</a> — Конвертор изображений в формат Base64(текст)</li>
 			<li><a href="http://www.css3factory.com/linear-gradients/" target="_blank">CSS Gradient Generator</a> — Генератор CSS3 градиентов</li>
 			<li><a href="http://fancyapps.com/fancybox/" target="_blank">fancyBox</a> — Просмотр изображений во весь экран</li>
-			<li><a href="http://draggabilly.desandro.com/" target="_blank">Draggabilly</a> — Js оешение для перетаскиваемости объектов</li>
+			<li><a href="http://draggabilly.desandro.com/" target="_blank">Draggabilly</a> — Js решение для перетаскиваемости объектов</li>
+			<li><a href="https://github.com/bigspotteddog/ScrollToFixed" target="_blank">ScrollToFixed</a> — Плагин для фиксации элементов на старнице</li>
+			<li><a href="http://html5.by/blog/scroll-effects/" target="_blank">Scroolly</a> — Плагин/Библеотека для скролинг эффектов </li>
 		</ul>
 	</li>
 	<li><b>Шрифты и Иконки</b>
