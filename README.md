@@ -62,6 +62,7 @@
 			<li><a href="http://digitalbush.com/projects/masked-input-plugin" target="_blank">MASKED INPUT PLUGIN</a> — Плагин маски для input-ов</li>
 			<li><a href="http://dimox.name/jquery-form-styler/" target="_blank">jQuery Form Styler</a> — Плагин для стилизации селектов, чекбоксов, радиокнопок, файловых и числовых полей</li>
 			<li><a href="http://spin.js.org/" target="_blank">spin.js</a> — создание прелодера как у youtuba на JS</li>
+			<li><a href="http://reactiveraven.github.io/jqBootstrapValidation/" target="_blank">jqBootstrapValidation</a> — JQuery validation plugin for bootstrap forms</li>
 			<li><a href="http://dabblet.com/" target="_blank">Dabblet</a> — Сайт HTML+CSS+JS</li>
 			<li><a href="https://jsfiddle.net/" target="_blank">Jsfiddle</a> — Сайт HTML+CSS+JS</li>
 			<li><a href="http://stocksnap.io" target="_blank">stocksnap.io</a> — Сервис качественных бесплатных фотографий для веб-дизайна</li>
