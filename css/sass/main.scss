@@ -1,36 +1,43 @@
 @import "bourbon/bourbon";
-/*--------------------------  START MEDIA REQUEST  --------------------------*/
-$modular-scale-ratio: 1.1; //$golden=1.618 //bourbon
-$modular-scale-base: 1.9em; //bourbon
-$max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1200px, screen4: 992px, screen5: 768px, screen6: 480px, screen7: 320px);
-// $max-screen-width: (screen0: 1440px, screen1: 1200px, screen2: 992px, screen3: 768px, screen4: 480px, screen5: 320px)
 
+/*--------------------------  START MEDIA REQUEST  --------------------------*/
+$modular-scale-ratio: 1.05; //$golden=1.618 //bourbon
+$modular-scale-base: 1em; //bourbon
+$max-screen-width: (screen-0: 2600px,screen-1: 1900px, screen-2: 1440px, screen-3: 1200px, screen-4: 992px, screen-5: 768px, screen-6: 480px, screen-7: 320px);
+// $max-screen-width: (screen0: 1440px, screen1: 1200px, screen2: 992px, screen3: 768px, screen4: 480px, screen5: 320px)
+// col-4k  >= 2600px
+// col-fhd >= 1900px
+// col-hd  >= 1440px
+// col-lg  >= 1200px
+// col-md  >= 992px
+// col-sm  >= 768px
+// col-xs  < 768px and >= 480px and 320px
 @for $i from 0 through 7 {
-	@if map_has_key($max-screen-width, screen#{$i}){
-		@media only screen and (max-width :  map_get($max-screen-width, screen#{$i})){
-			h1{
-				font-size: modular-scale(11 - $i); //bourbon function
+	@if map_has_key($max-screen-width, screen-#{$i}){
+		@media only screen and (max-width :  map_get($max-screen-width, screen-#{$i})){
+			h1,.h1{
+				font-size: modular-scale(18 - $i); //bourbon function
 			}
-			h2{
+			h2,.h2{
+				font-size: modular-scale(15 - $i); //bourbon function
+			}
+			h3,.h3{
+				font-size: modular-scale(12 - $i); //bourbon function
+			}
+			h4,.h4{
 				font-size: modular-scale(8 - $i); //bourbon function
 			}
-			h3{
+			h5,.h5{
+				font-size: modular-scale(6 - $i); //bourbon function
+			}
+			h6,.h6{
 				font-size: modular-scale(4 - $i); //bourbon function
 			}
-			h4{
-				font-size: modular-scale(0 - $i); //bourbon function
-			}
-			h5{
-				font-size: modular-scale(-2 - $i); //bourbon function
-			}
-			h6{
-				font-size: modular-scale(-4 - $i); //bourbon function
-			}
-			p{
-				font-size: modular-scale(-4 - $i); //bourbon function
+			p,ul,ol{
+				font-size: modular-scale(4 - $i); //bourbon function
 			}
 			td, th{
-				font-size: modular-scale(0 - $i); //bourbon function
+				font-size: modular-scale(4 - $i); //bourbon function
 			}
 		}
 	}
@@ -95,6 +102,15 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 	-o-animation-direction: $func_var_animation_direction;/*Направление анимации*/
 	animation-direction: $func_var_animation_direction;/*Направление анимации*/
 }
+// Координаты точки, относительно которой будет происходить трансформация элемента.
+// transform-origin: <x> <y> <z>
+@mixin my-transform-origin($func_var_transform_origin_X,$func_var_transform_origin_Y){
+	-webkit-transform-origin: $func_var_transform_origin_X $func_var_transform_origin_Y;
+	-moz-transform-origin: $func_var_transform_origin_X $func_var_transform_origin_Y;
+	-o-transform-origin: $func_var_transform_origin_X $func_var_transform_origin_Y;
+	-ms-transform-origin: $func_var_transform_origin_X $func_var_transform_origin_Y;
+	transform-origin: $func_var_transform_origin_X $func_var_transform_origin_Y;
+}
 /*Перед функцией my-animation должен быть создан @keyframes или
 @-webkit-keyframes с именем совпадающим с $func_animation_name*/
 @mixin my-animation( $func_animation_name, $func_animation_duration,
@@ -142,6 +158,19 @@ $max-screen-width: (screen0: 2600px,screen1: 1900px, screen2: 1440px, screen3: 1
 		vertical-align: bottom;
 	}
 }
+html{
+	min-width: 320px;
+	// overflow-x: hidden;
+}
+body{
+	font-family: "RalewayRegular", sans-serif;
+	font-weight: normal;
+	position: relative;
+	line-height: 1.42857;
+	-webkit-font-smoothing: antialise;
+	letter-spacing: 1px;
+	font-size: 14px; 
+}
 body input:focus:required:invalid,
 body textarea:focus:required:invalid{
 	color: red;
@@ -150,34 +179,23 @@ body input:required:valid,
 body textarea:required:valid{
 	color: green;
 }
-body {
-	min-height: 100%;
-	position: relative;
-}
-input {
-	margin: 0;
-	border: 0;
-}
 button, html, input, select, textarea {
 	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-a:hover {
-	-o-transition: color .1s ease;
-	transition: color .1s ease;
-}
-.disable-hover, .disable-hover * {
-	pointer-events: none!important;
 }
 a{
 	color: #004d99;
 	text-decoration: none;
 	&:hover{
 		color: #06c;
-		text-decoration: underline;
+		text-decoration: none;
 		-o-transition: color .1s ease;
 		transition: color .1s ease;
+	}
+	&:focus{
+		outline: none;
+		text-decoration: none;
 	}
 }
 
@@ -198,32 +216,31 @@ a{
 	opacity: 1;
 }
 
-html.js .loader {
-	background: none repeat scroll 0 0 #ffffff;
-	bottom: 0;
-	height: 100%;
-	left: 0;
-	position: fixed;
-	right: 0;
-	top: 0;
-	width: 100%;
-	z-index: 999;
-}
-html.js .loader_inner {
-	background-image: url("../img/preloader.gif");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-color: #fff;
-	height: 60px;
-	width: 60px;
-	margin-top: -30px;
-	margin-left: -30px;
-	left: 50%;
-	top: 50%;
-	position: absolute;
-}
-
+// html.js .loader {
+// 	background: none repeat scroll 0 0 #ffffff;
+// 	bottom: 0;
+// 	height: 100%;
+// 	left: 0;
+// 	position: fixed;
+// 	right: 0;
+// 	top: 0;
+// 	width: 100%;
+// 	z-index: 999;
+// }
+// html.js .loader_inner {
+// 	background-image: url("../img/preloader.gif");
+// 	background-size: cover;
+// 	background-repeat: no-repeat;
+// 	background-position: center center;
+// 	background-color: #fff;
+// 	height: 60px;
+// 	width: 60px;
+// 	margin-top: -30px;
+// 	margin-left: -30px;
+// 	left: 50%;
+// 	top: 50%;
+// 	position: absolute;
+// }
 // *{background:linear-gradient(135deg, #81F5BA 1000%,$headerbgc 1000%);}
 button, 
 button:active, 
@@ -231,10 +248,13 @@ button:focus,
 button:hover,
 button:checked,
 button:default,
-input{
+input, a, img{
 	outline: none;
 	-moz-user-select: -moz-none;
 	-webkit-user-select: none;
 	user-select: none;
+}
+.hidden{
+	display: none;
 }
 //*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
