@@ -52,6 +52,7 @@
 		<ul>
 			<li><a href="http://imakewebthings.com/waypoints" target="_blank">imakewebthings.com/waypoints</a> — Триггер для скролла</li>
 			<li><a href="http://pixelcog.github.io/parallax.js" target="_blank">pixelcog.github.io/parallax.js</a> — Параллакс эффект</li>
+			<li><a href="https://github.com/NV/placeholder.js/" target="_blank">placeholder.js/</a> — Делает доступным placeholder HTML5 для всез браузеров эффект</li>
 			<li><a href="http://dimsemenov.com/plugins/magnific-popup" target="_blank">dimsemenov.com/plugins/magnific-popup</a> — Респонсив попап менеджер</li>
 			<li><a href="http://github.com/malihu/page-scroll-to-id" target="_blank">github.com/malihu/page-scroll-to-id</a> — Плагин навигации по Landing Page</li>
 			<li><a href="https://github.com/wayou/sliphover/" target="_blank">SlipHover</a> — Плагин указывающий направление при анимации наведения</li>
