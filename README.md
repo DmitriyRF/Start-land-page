@@ -56,6 +56,7 @@
 			<li><a href="http://dimsemenov.com/plugins/magnific-popup" target="_blank">dimsemenov.com/plugins/magnific-popup</a> — Респонсив попап менеджер</li>
 			<li><a href="http://github.com/malihu/page-scroll-to-id" target="_blank">github.com/malihu/page-scroll-to-id</a> — Плагин навигации по Landing Page</li>
 			<li><a href="https://github.com/wayou/sliphover/" target="_blank">SlipHover</a> — Плагин указывающий направление при анимации наведения</li>
+			<li><a href="https://github.com/pupunzi/jquery.mb.YTPlayer" target="_blank">Youtube BackGround</a> — Js код который делает фоном видео из youtube</li>
 			<li><a href="https://github.com/matthewhudson/device.js" target="_blank">device.js</a> — Js код который определяет устройство и тип ориентации устройства</li>
 			<li><a href="https://github.com/bfred-it/object-fit-images" target="_blank">FillImg</a> — Плагин для заполнения картинки в области</li>
 			<li><a href="http://formspree.io" target="_blank">formspree.io</a> — Отправка заявок с сайта</li>
